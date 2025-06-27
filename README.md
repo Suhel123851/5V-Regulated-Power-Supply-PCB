@@ -1,32 +1,87 @@
+# 🔋 5V Regulated Power Supply - PCB Design
 
-# 5V Regulated Power Supply PCB
+This project is a **regulated 5V DC power supply** designed using the **LM7805 voltage regulator IC**.  
+The circuit takes an unregulated DC input and provides a stable 5V output, commonly used to power microcontrollers, sensors, and small electronics.
 
-This project is a simple regulated 5V DC power supply designed using the **LM7805 voltage regulator**.
+---
 
-## 🔧 Circuit Description
-- **Input:** 5V (DC)
-- **Rectification:** Diodes 1N4007
-- **Regulator:** LM7805
-- **Filtering:** 500µF and 50µF Capacitors
-- **Output:** 5V DC with status LED
+## 🧠 Features
 
-## 📷 Screenshots
-### Schematic
+- 📥 Input Voltage: 6V to 15V DC
+- 📤 Output Voltage: Regulated 5V DC
+- 🔧 Voltage Regulator: LM7805
+- 💡 LED Indicator for Output Status
+- ⚡ Capacitor filtering for ripple-free supply
+- 🖨️ Designed on PCB with 3D view and layout
+
+---
+
+## 🖥️ Software Used
+
+- NI Multisim (for schematic)
+- NI Ultiboard (for PCB layout & 3D model)
+
+---
+
+## 🗂️ Files Included
+
+| File Name                  | Description                      |
+|---------------------------|----------------------------------|
+| `Schematic.png`           | Circuit diagram                  |
+| `PCB_Layout.png`          | Main PCB layout view             |
+| `PCB_Layout_Alternate.png`| Alternate PCB layout angle       |
+| `3D_View.png`             | 3D model side view               |
+| `3D_topView.png`          | 3D model top view                |
+
+---
+
+## 📷 Visuals
+
+### 🔌 Schematic  
 ![Schematic](Schematic.png)
 
-### PCB Layout
+---
+
+### 📐 PCB Layout (Front)  
 ![PCB Layout](PCB_Layout.png)
 
-### 3D View
+---
+
+### 🔁 Alternate PCB Layout View  
+![Alternate View](PCB_Layout_Alternate.png)
+
+---
+
+### 🧱 3D View (Side)  
 ![3D View](3D_View.png)
 
-## 💡 Software Used
-- NI Multisim / Ultiboard
+---
 
-## 📁 Files Included
-- Schematic image
-- PCB layout image
-- 3D view image
+### 📸 3D View (Top)  
+![Top View](3D_topView.png)
 
-## 🔌 Applications
-- Can be used to power microcontrollers, sensors, and IoT modules with 5V regulated supply.
+---
+
+## 🎯 Applications
+
+- Powering Arduino, NodeMCU, and other microcontrollers
+- Mini embedded projects
+- Breadboard power supply module
+- Portable electronics charging setup
+
+---
+
+## 👨‍🔧 Designed By
+
+**Mohammad Suhel**  
+2nd Year Electrical Engineering Student  
+[GitHub Profile](https://github.com/your-username)
+
+---
+
+## 📬 Suggestions / Improvements
+
+Feel free to fork, suggest improvements, or open issues.  
+Let’s build better circuits together! 🔧✨
+
+
